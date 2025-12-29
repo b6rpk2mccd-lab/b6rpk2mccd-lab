@@ -101,7 +101,7 @@
   <a class="button" style="background: rgba(255,255,255,0.85);" href="https://pocketsuite.io/book/kessler-therapeutics" target="_blank">Book an Appointment</a>
 </header>
 
-<section id="services" style="border-top:none;">
+<section id="services" style="border-top:none; text-align:center;">
   <h2>Services</h2>
 
   <div class="service">
@@ -120,7 +120,7 @@
   </div>
 </section>
 
-<section id="about">
+<section id="about" style="text-align:center;">
   <h2>About</h2>
   <p>
     Kessler Therapeutics is built around clear communication, informed technique, and respect for the client experience. Care is delivered with professionalism, discretion, and attention to individual needs rather than one-size-fits-all routines.
@@ -128,8 +128,13 @@
 </section>
 
 <footer>
-  <div class="footer-logo" style="margin-bottom:1.5rem;">
-    <img src="logo.png" alt="Kessler Therapeutics logo" onerror="this.style.display='none'" style="max-width:140px; height:auto; display:block; margin:0 auto;" />
+  <div class="footer-logo" style="margin-bottom:1.5rem; display:flex; justify-content:center; align-items:center;">
+    <picture>
+      <source srcset="logo.svg" type="image/svg+xml" />
+      <source srcset="logo.png" type="image/png" />
+      <source srcset="logo.jpg" type="image/jpeg" />
+      <img src="/logo.png" alt="Kessler Therapeutics logo" onerror="this.closest('picture').style.display='none'" style="max-width:140px; height:auto; display:block;" />
+    </picture>
   </div>
   © Kessler Therapeutics, LLC
 </footer>
