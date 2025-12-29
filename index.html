@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kessler Therapeutics, LLC</title>
-  <meta name="description" content="Kessler Therapeutics offers professional massage therapy focused on movement, recovery, and function." />
+  <title>About | Kessler Therapeutics, LLC</title>
+
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&display=swap');
 
@@ -18,7 +18,7 @@
     }
 
     header {
-      padding: 3rem 1.5rem 2rem;
+      padding: 3rem 1.5rem;
       max-width: 900px;
       margin: 0 auto;
       text-align: center;
@@ -38,60 +38,30 @@
     }
 
     h1 {
-      font-size: 2.75rem;
+      font-size: 2.25rem;
       font-weight: 500;
-      margin-bottom: 0.25rem;
+      margin-bottom: 2rem;
     }
 
-    .subtitle {
-      font-size: 1rem;
-      margin-bottom: 1.25rem;
+    .profile-photo {
+      max-width: 320px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 2rem auto;
+      border-radius: 4px;
     }
 
-    h2 {
-      font-size: 1.5rem;
-      margin-bottom: 1.5rem;
-      font-weight: 500;
-    }
-
-    section {
-      padding: 2.5rem 1.5rem 4rem;
-      max-width: 900px;
-      margin: 0 auto;
-      text-align: center;
-    }
-
-    .service {
-      margin-bottom: 3rem;
-    }
-
-    .video-placeholder {
-      margin-top: 1rem;
-      background: #f4f4f4;
-      height: 200px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #777;
-      font-size: 0.9rem;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.75rem 1.25rem;
-      border: 1px solid #274e13;
-      text-decoration: none;
-      color: #274e13;
-      font-size: 0.95rem;
-      background: rgba(255,255,255,0.85);
+    p {
+      max-width: 700px;
+      margin: 0 auto 1.25rem auto;
     }
 
     footer {
       padding: 3rem 1.5rem;
       text-align: center;
       font-size: 0.85rem;
-      color: #666;
+      color: #274e13;
     }
   </style>
 </head>
@@ -100,40 +70,44 @@
 <header>
   <nav>
     <a href="index.html">Home</a>
-    <a href="about.html">About</a>
     <a href="https://pocketsuite.io/book/kessler-therapeutics" target="_blank">Book</a>
   </nav>
 
-  <h1>Kessler Therapeutics, LLC</h1>
-  <div class="subtitle">Massage Therapy and Personal Training</div>
+  <h1>About</h1>
 
-  <a class="button" href="https://pocketsuite.io/book/kessler-therapeutics" target="_blank">
-    Book an Appointment
-  </a>
+  <!-- Profile photo -->
+  <img
+    src="photo.png"
+    alt="Kessler Therapeutics practitioner"
+    class="profile-photo"
+  />
+
+  <p>
+    I studied massage therapy at the American Massage and Bodywork Institute,
+    where I built a strong foundation in clinical bodywork. I also studied
+    shiatsu under my mentor, which shaped how I think about pressure, movement,
+    and the body as a connected system rather than a set of isolated muscles.
+  </p>
+
+  <p>
+    Fitness has always been important to me, which led me to become a Certified
+    Personal Trainer through the National Academy of Sports Medicine. That
+    background strongly influences how I practice massage.
+  </p>
+
+  <p>
+    My work is focused, intentional, and individualized. Massage is a practical
+    tool to help the body move well, train better, and feel more capable over
+    time.
+  </p>
 </header>
 
-<section>
-  <h2>Services</h2>
-
-  <div class="service">
-    <h3>Deep Tissue Massage</h3>
-    <div class="video-placeholder">Timelapse video embed</div>
-  </div>
-
-  <div class="service">
-    <h3>Compression and Stretch</h3>
-    <div class="video-placeholder">Timelapse video embed</div>
-  </div>
-
-  <div class="service">
-    <h3>Mobile Deep Tissue</h3>
-    <div class="video-placeholder">Timelapse video embed</div>
-  </div>
-</section>
-
 <footer>
-  <img src="logo.png" alt="Kessler Therapeutics logo"
-       style="max-width:140px; height:auto; margin:0 auto 1rem auto; display:block;" />
+  <img
+    src="logo.png"
+    alt="Kessler Therapeutics logo"
+    style="max-width:140px; height:auto; margin:0 auto 1rem auto; display:block;"
+  />
   © Kessler Therapeutics, LLC
 </footer>
 
